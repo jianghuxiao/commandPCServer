@@ -66,7 +66,7 @@ public class CommandSocket implements ISocket{
 			if(commandInfo == null)
 				return;
 			
-			System.out.println("Command: " + info);
+			//System.out.println("Command: " + info);
 			
 			switch(commandInfo.command){
 				case Command.CONNECTING:
